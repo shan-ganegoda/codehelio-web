@@ -1,0 +1,118 @@
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 800;
+}
+
+.home__container{
+    margin-top: 5.5rem;
+}
+
+.home__background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
+}
+
+.home__content{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+
+.home__img{
+    width: 50%;
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    animation: home__img 2s ease-in-out infinite 1s ;
+}
+
+@keyframes home__img {
+    0%{ top: 10rem; }
+    50%{top: 11rem;}
+    100%{top: 10rem;}
+}
+
+.img__overlay{
+    position: absolute;
+    left: 7rem;
+    width: 45%;
+    top: 7rem;
+    z-index: -1;
+}
+
+.home__desc{
+    color: #fff;
+    position: relative;    
+}
+
+.desc__content{
+    position: relative;
+    left: 6rem;
+}
+
+.line1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.line2{
+    font-size: 5rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+    text-stroke: 5px #fff;
+    position: relative;
+    top: -5rem;
+}
+
+.line22{
+    position: relative;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    left: 2rem;
+    top: -5rem;
+}
+
+.line3{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #1776f5;
+    position: relative;
+    top: -10rem;
+}
+
+.line4{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    top: -15rem;
+}
+
+.description{
+    color: #fff;
+    position: relative;
+    top: -20rem;
+    width: 40rem;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -17rem;
+}
+.buttons button{
+    color: #fff;
+    background-color: #1776f5;
+    border: none;   
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    font-size: large;
+}
+
+.shape{
+    margin-left: 2rem;
+}
