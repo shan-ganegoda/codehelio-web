@@ -7,7 +7,7 @@ import Overlay from '../../assets/1Artboard/Layer 3.png';
 
 const Home = () => {
   return (
-    <div className="home__container">
+    <div className="home__container" id='#home'>
       <img className='home__background' src={Background} alt="Background" />
       <div className="home__content grid">
         <div className="home__image">

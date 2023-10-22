@@ -1,0 +1,84 @@
+.vision__background{
+    position: absolute;  
+    z-index: -1;
+    width: 50%;
+    left: 25vw;
+} 
+
+.vision__head{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.vision__title p{
+    font-size: 4rem;
+    line-height: 1rem;
+}
+
+.vision__title span{
+    color: #0051c4;
+}
+
+.vision__description{
+    width: 30rem;
+    justify-content: left;
+    text-align: left;
+    border-left: 4px solid #000;
+    height: 8rem;
+    padding-left: 6rem;
+    margin-top: 3rem;
+    
+}
+
+.vision__description span{
+    font-size: 1.3rem;
+}
+
+.vision__cards{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    justify-items: center; 
+}
+
+.card{
+    width: 50%;
+    background: #fff;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 25px;
+}
+
+.card__title{
+    font-size: 2rem;
+    padding-left: 1rem;
+    
+}
+
+.card__title i{
+    font-size: 3rem;
+    /* position: absolute; */
+    line-height: 1px;
+    padding-right: 1rem;
+    color: green;
+}
+
+.card__description{
+    padding: 1rem;
+}
+
+.icon-image{
+    position: absolute;
+    width: 16rem;
+    opacity: 0.1;
+    
+}
+
+#missionicon{
+    right: 16rem;
+} 
+
+#visionicon{
+    left: 28rem;
+} 

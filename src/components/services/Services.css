@@ -1,0 +1,130 @@
+.vision__section{
+    margin-top: 5rem;
+}
+
+.section__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+
+.section__title p{
+    font-size: 3rem;
+}
+
+.section__title span{
+    color: blue;
+}
+
+.Round__circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.roundsbar{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* ------------Body Cards------------- */
+
+.bodycards{
+    margin-top: 2rem;
+}
+
+.tab__title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.first{
+    color:#0051c4;
+}
+
+.second{
+    color: #ffb750;
+}
+
+.web__developmet{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+    background-color: #edf0fd;
+    height: 25rem;
+
+}
+
+.WEB{
+    width: 35rem;
+}
+
+.tab__right{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.tab__line{
+    background-color: black;
+    width: 8px;
+    height: 6rem;
+    margin: 1rem 0;
+}
+
+.tab__description{
+    width: 50rem;
+}
+
+/* Web designing */
+
+.web__design{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+    height: 25rem;
+}
+
+.firstwd{
+   color: #3e3f40;
+}
+
+.secondwd{
+    color: #2a94f4;
+}
+
+.Designing{
+    width: 35rem;
+    position: relative;
+    top: -4rem;
+}
+
+/* Android Development */
+
+.android__development{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+    background-color: #fbe1e1;
+    height: 25rem;
+}
+
+.firstad{
+    color: #f50057;
+}
+
+.secondad{
+    color: #3e3f40;
+}
+
+.android{
+    width: 43rem;
+}
+
