@@ -7,7 +7,7 @@ import Overlay from '../../assets/1Artboard/Layer 3.png';
 
 const Home = () => {
   return (
-    <div className="home__container" id='#home'>
+    <section className="home__container" id='home'>
       <img className='home__background' src={Background} alt="Background" />
       <div className="home__content grid">
         <div className="home__image">
@@ -25,16 +25,16 @@ const Home = () => {
            We help clients solve business challenges and advance their industry by utilizing 
            innovative solutions.</p>
            <div className="buttons">
-              <button>Start Now</button>
-              <Shape color="#0cb4e8"/>     
-              <Shape color="#ff19cd"/>     
-              <Shape color="#3dff0d"/>
-              <Shape color="#2d2e32"/>               
+              <button className='btn__start'>Start Now</button>
+              <Shape className='shape' color="#0cb4e8"/>     
+              <Shape className='shape' color="#ff19cd"/>     
+              <Shape className='shape' color="#3dff0d"/>
+              <Shape className='shape' color="#2d2e32"/>               
             </div>
             </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,6 +1,7 @@
 .why__head{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .TitleImg{
@@ -14,7 +15,7 @@
     transform: scaleX(-1);
     position: relative;
     left: -35rem;
-    top: -2rem;
+    top: -1.5rem;
 }
 
 .choose__cards{
@@ -57,6 +58,7 @@
 
 .box__description{
     width: 20rem;
+    text-align: justify;
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -66,4 +68,150 @@
     justify-content: center;
     position: relative;
     top: -10rem;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width: 1440px){
+    
+    .first__row{
+        justify-content: space-evenly;
+    }
+
+    .box__description{
+        width: 15rem;
+        /* margin-left: 3rem;
+        margin-right: 3rem; */
+    }
+
+    
+}
+
+@media only screen and (max-width: 1210px){
+
+    .box__description{
+        width: 13rem;
+        
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .TitleImg{
+        left: 6rem;
+    }
+    
+    .ManImg{
+        height: 25rem;
+        transform: scaleX(-1);
+        position: relative;
+        left: -28rem;
+        top: -1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+
+    .box__description{
+        width: 12rem;
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 950px){
+
+    .box__description{
+        width: 20rem;
+        
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .first__row{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .card__content{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .TitleImg{
+        left: 6rem;
+        top: -12rem;
+        height: 40rem;
+    }
+    
+    .ManImg{
+        height: 20rem;
+        transform: scaleX(-1);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    .card__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box__description{
+        width: 25rem;
+        
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .TitleImg{
+        top: -9rem;
+        height: 30rem;
+    }
+    
+    .ManImg{
+        height: 15rem;
+        left: -18rem;
+    }
+
+    .choose__cards{
+        top: -17rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+    .TitleImg{
+        top: -6rem;
+        height: 20rem;
+        left: 4rem;
+    }
+    
+    .ManImg{
+        height: 10rem;
+        left: -13rem;
+    }
+
+    .choose__cards{
+        top: -13rem;
+    }
+
+    .box__description{
+        width: 20rem;
+        
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .box__description{
+        width: 18rem;
+        
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }

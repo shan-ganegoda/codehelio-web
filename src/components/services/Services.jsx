@@ -48,7 +48,7 @@ const Services = () => {
 
             <div className="web__design grid">            
 
-                <div className="tab__right">
+                <div className="tab__leftwd">
 
                 <div className="tab__title">
                     <span className='firstwd'>Web</span>
@@ -65,7 +65,7 @@ const Services = () => {
 
             </div>
 
-            <div className="tab__left">
+            <div className="tab__rightwd">
                 <img className='Designing' src={Designing} alt="WEB" />
             </div>
             
@@ -78,7 +78,7 @@ const Services = () => {
                 <img className='android' src={Android} alt="WEB" />
             </div>
             
-            <div className="tab__right">
+            <div className="tab__rightad">
 
                 <div className="tab__title">
                     <span className='firstad'>Android</span>

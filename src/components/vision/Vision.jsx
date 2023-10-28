@@ -5,10 +5,14 @@ import VisionBackground from '../../assets/2Artboard/bg-2.png';
 import MissionImg from '../../assets/2Artboard/leadership.png';
 import VisionImg from '../../assets/2Artboard/focus.png';
 
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+
 const Vision = () => {
   return (
     <>
-    <section className="Vision__section" id="#vision">
+    <section className="Vision__section" id="about">
         <img className='vision__background' src={VisionBackground} alt="Background" />
         <div className="vision__head grid">
             <div className="vision__title">
@@ -27,7 +31,8 @@ const Vision = () => {
         <div className="vision__body">
             <div className="vision__cards grid">
 
-                <div className="card">
+                <Card className="card">
+                    <CardContent>
                     <img className='icon-image' id='visionicon' src={VisionImg} alt="Vision" />
                     <p className="card__title"><i class="uil uil-eye"></i>Vision</p>
                     <p className='card__description'>
@@ -36,9 +41,10 @@ const Vision = () => {
                      software products, focusing on reliability, scalability, 
                      and intuitive design, set industry standards.
                     </p>
-                </div>
+                    </CardContent>
+                </Card>
 
-                <div className="card">
+                <Card className="card">
                     <img className='icon-image' id='missionicon' src={MissionImg} alt="Mission" />
                     <p className="card__title"><i class="uil uil-focus-target"></i>Mission</p>
                     <p className='card__description'>
@@ -46,7 +52,7 @@ const Vision = () => {
                     with exception- al software products. We strive to be the driving 
                     force behind our clients' growth
                     </p>
-                </div>
+                </Card>
 
             </div>
         </div>

@@ -1,6 +1,6 @@
 *{
-    font-family: 'Saira Condensed', sans-serif;
-    font-weight: 800;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
 }
 
 .home__container{
@@ -11,21 +11,25 @@
     position: absolute;
     top: 0; 
     width: 100%;
-    height: 60rem;
+    height: 55rem;
     z-index: -1000;
 }
 
 .home__content{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    top: -7rem;
 }
+
+
 
 .home__img{
     width: 50%;
     position: absolute;
-    left: 5rem;
+    left: 2rem;
     top: 10rem;
-    animation: home__img 2s ease-in-out infinite 1s ;
+    animation: home__img 4s ease-in-out infinite 1s ;
 }
 
 @keyframes home__img {
@@ -36,7 +40,7 @@
 
 .img__overlay{
     position: absolute;
-    left: 7rem;
+    left: 4rem;
     width: 45%;
     top: 7rem;
     z-index: -1;
@@ -45,18 +49,19 @@
 .home__desc{
     color: #fff;
     position: relative;
+    top: 5rem;
     /* left: 7rem; */
     padding-left: 7rem;
        
 }
 .line1{
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 400;
 }
 
 .line2{
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 400;
     color: transparent;
     -webkit-text-stroke: 0.5px #fff;
     text-stroke: 5px #fff;
@@ -67,23 +72,23 @@
 .line22{
     position: relative;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
     left: 2rem;
     top: -5rem;
 }
 
 .line3{
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 400;
     color: #1776f5;
     position: relative;
     top: -10rem;
 }
 
 .line4{
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 400;
     color: #fff;
     position: relative;
     top: -15rem;
@@ -92,8 +97,9 @@
 .description{
     color: #fff;
     position: relative;
-    top: -20rem;
+    top: -18rem;
     width: 40rem;
+    text-align: justify;
     
 }
 .buttons{
@@ -102,15 +108,276 @@
     position: relative;
     top: -17rem;
 }
+
 .buttons button{
     color: #fff;
     background-color: #1776f5;
     border: none;   
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     border-radius: 25px;
     font-size: large;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .shape{
     margin-left: 2rem;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width: 1362px) {
+    
+    .line1,.line2,.line22,.line3,.line4{
+        font-size: 3.5rem;
+    }
+
+    .description{
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 1295px) {
+    
+    .line1,.line2,.line22,.line3,.line4{
+        font-size: 3.5rem;
+    }
+
+    .description{
+        width: 30rem;
+    }
+
+    .home__desc{
+        left: -4rem;
+    }
+
+    .buttons button{
+        padding: 1rem 1.5rem;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .line1,.line2,.line22,.line3,.line4{
+        font-size: 3rem;
+    }
+
+    .description{
+        width: 30rem;
+    }
+
+    .home__desc{
+        left: -2rem;
+    }
+
+    .buttons button{
+        padding: 1rem 1.5rem;
+        font-size: medium;
+    }
+
+    .home__img{
+        width: 40%;
+    }
+
+    @keyframes home__img {
+        0%{ top: 11rem; }
+        50%{top: 13rem;}
+        100%{top: 11rem;}
+    }
+
+    
+    .img__overlay{
+        left: 4rem;
+        width: 35%;
+        top: 11rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .home__content{        
+        grid-template-columns: repeat(1,1fr);
+        top: -7rem;
+        left: 20%;
+    }
+
+    .home__desc{
+        top: 25rem;
+        padding-left: 4rem;
+    }
+
+    @keyframes home__img {
+        0%{ top: 8rem; }
+        50%{top: 10rem;}
+        100%{top: 8rem;}
+    }
+
+    
+    .img__overlay{
+        left: 4rem;
+        width: 35%;
+        top: 8rem;
+    }
+
+    .line2,.line22{
+        top: -4.5rem;
+    }    
+    .line3{
+        top: -9rem;
+    }
+    
+    .line4{
+        top: -13.5rem;
+    }
+    
+    .description{
+        top: -16rem;
+        /* width: 40rem; */
+        
+    }
+    .buttons{
+        top: -15rem;
+    }
+
+    .home__background{
+        height: 60rem;
+    }
+
+    .home__container{
+        height: 60rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .home__content{        
+        top: -7rem;
+        left: 6rem;
+    }
+
+    @keyframes home__img {
+        0%{ top: 8rem; }
+        50%{top: 10rem;}
+        100%{top: 8rem;}
+    }
+
+    
+    .img__overlay{
+        left: 2rem;
+        width: 25rem;
+        top: 8rem;
+    }
+
+    .home__img{
+        width: 30rem;
+        left: -1rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .home__content{        
+        top: -7rem;
+        left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .home__content{        
+        top: -7rem;
+        left: 0rem;
+    }
+    
+    .img__overlay{
+        left: 2rem;
+        width: 23rem;
+        top: 8rem;
+    }
+
+    .home__img{
+        width: 25rem;
+        left: 1rem;
+    }
+
+    .description{
+        width: 27rem;        
+    }
+
+    .shape{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .line1,.line2,.line22,.line3,.line4{
+        font-size: 2.5rem;
+    }
+
+    .line2,.line22{
+        top: -3rem;
+    }    
+    .line3{
+        top: -6rem;
+    }
+    
+    .line4{
+        top: -9rem;
+    }
+    
+    .description{
+        top: -10rem;
+        width: 23rem;
+        
+    }
+    .buttons{
+        top: -9rem;
+    }
+
+    .img__overlay{
+        left: 2rem;
+        width: 20rem;
+        top: 8rem;
+    }
+
+    .home__img{
+        width: 22rem;
+        left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+
+    .home__content{        
+        left: -0.5rem;
+    }
+
+    .line1,.line2,.line22,.line3,.line4{
+        font-size: 2.2rem;
+    }
+    
+    .description{
+        width: 19rem;
+        
+    }
+    .buttons{
+        top: -9rem;
+    }
+
+    @keyframes home__img {
+        0%{ top: 11rem; }
+        50%{top: 13rem;}
+        100%{top: 11rem;}
+    }
+
+    .img__overlay{
+        left: 2rem;
+        width: 18rem;
+        top: 11rem;
+    }
+
+    .home__img{
+        width: 20rem;
+        left: 1rem;
+    }
 }

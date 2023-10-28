@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1px;
+    line-height: 1rem;
 }
 
 .section__title p{
@@ -81,6 +81,7 @@
 
 .tab__description{
     width: 50rem;
+    text-align: justify;
 }
 
 /* Web designing */
@@ -90,6 +91,14 @@
     grid-template-columns: repeat(2,2fr);
     width: 100%;
     height: 25rem;
+}
+
+.tab__leftwd{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    flex-direction: column;   
+    align-items: center;
 }
 
 .firstwd{
@@ -116,6 +125,14 @@
     height: 25rem;
 }
 
+.tab__rightad{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    flex-direction: column;   
+    align-items: center;
+}
+
 .firstad{
     color: #f50057;
 }
@@ -125,6 +142,326 @@
 }
 
 .android{
-    width: 43rem;
+    width: 25rem;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
 }
+
+
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width: 1440px){
+
+    /* WEB DEVELOPMENT */
+    .tab__right{
+        right: 1rem;
+    }
+
+    .tab__left{
+        left: 2rem;
+    }
+
+    .tab__description{
+        width: 40rem;
+    }
+
+    /* WEB DESIGN */
+
+    .tab__leftwd{
+        left: 2rem;
+    }
+     /* ANDROID DEVELOPMENT */
+
+     .tab__rightad{
+        right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+    /* WEB DEVELOPMENT */
+    .tab__right{
+        right: 3rem;
+    }
+
+    .tab__description{
+        width: 38rem;
+    }
+
+    .WEB{
+        width: 30rem;
+        position: relative;
+        top: 3rem;
+    }
+
+    /* WEB DESIGN */
+
+    .tab__leftwd{
+        left: 2rem;
+    }
+
+    .Designing{
+        width: 30rem;
+        top: -1rem;
+    }
+
+     /* ANDROID DEVELOPMENT */
+
+     .tab__rightad{
+        right: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+
+    /* WEB DEVELOPMENT */
+
+    .web__developmet{
+        height: 28rem;
+    }
+    .tab__right{
+        right: 3rem;
+    }
+    
+    .tab__description{
+        width: 33rem;
+    }
+
+    .WEB{
+        width: 25rem;
+        position: relative;
+        top: 3rem;
+    }
+
+    /* WEB DESIGN */
+
+    .web__design{
+        height: 28rem;
+    }
+
+    /* .tab__leftwd{
+        left: 2rem;
+    } */
+
+    .Designing{
+        width: 25rem;
+        top: 4rem;
+        left: 1rem;
+    }
+
+     /* ANDROID DEVELOPMENT */
+
+     .android__development{
+        height: 28rem;
+     }
+
+     .tab__rightad{
+        right: 4rem;
+    }
+
+    .android{
+        width: 20rem;
+        top: 8rem;
+    }
+}
+
+@media only screen and (max-width: 950px){
+
+     /* WEB DEVELOPMENT */
+
+     .web__developmet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-color: #edf0fd;
+        height: 50rem;
+    
+    }
+
+     .WEB{
+        width: 25rem;
+        position: relative;
+        top: -2rem;
+        left: 24%;
+    }
+
+    .tab__right{
+        top: -2rem;
+    }
+
+    /* WEB DESIGN */
+
+    .web__design{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50rem;
+    }
+
+    .Designing{
+        top: 4rem;
+        left: 27%;
+    }
+
+    /* ANDROID DEVELOPMENT */
+
+    .android__development{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50rem;
+    }
+
+    .android{
+        top: 0rem;
+        left: 27%;
+    }
+
+    
+
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    /* WEB DEVELOPMENT */
+
+   .tab__right{
+       top: -2rem;
+       left: 0.2rem;
+   }
+
+   /* WEB DESIGN */
+
+   .tab__leftwd{
+    left: 0rem;
+   }
+
+   /* ANDROID DEVELOPMENT */
+
+   .tab__rightad{
+    top: 1rem;
+    left: 0.2rem;
+}
+
+   
+
+   
+}
+
+@media only screen and (max-width: 570px){
+
+    /* WEB DEVELOPMENT */
+
+   .tab__description{
+    width: 28rem;
+   }
+
+   .tab__right{
+       top: -2rem;
+       left: 0rem;
+   }
+
+   .WEB{
+    left: 15%;
+   }
+
+   /* WEB DESIGN */
+
+   .tab__leftwd{
+    left: 0rem;
+   }
+
+   .Designing{
+    left: 15%;
+   }
+
+   /* ANDROID DEVELOPMENT */
+
+   .tab__rightad{
+    top: 1rem;
+    left: 0.2rem;
+}
+
+.android{
+    left: 22%;
+}
+   
+}
+
+
+@media only screen and (max-width: 492px){
+
+    /* WEB DEVELOPMENT */
+
+    .tab__description{
+        width: 25rem;
+    }
+
+    .tab__title{
+        display: flex;
+        flex-direction: column;
+        /* font-size: 3rem; */
+    }
+
+    .web__developmet{
+        height: 60rem;
+    }
+
+    .WEB{
+        left: 8%;
+    }
+
+    /* WEB DEVELOPMENT */
+
+    .web__design{
+        height: 60rem;
+    }
+
+    .Designing{
+        left: 5%;
+    }
+
+    /* ANDROID DEVELOPMENT */
+
+    .android{
+        left: 17%;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+
+    /* WEB DEVELOPMENT */
+
+    .tab__description{
+        width: 20rem;
+    }
+
+    .WEB{
+        left: -1rem;
+    }
+
+    /* WEB DESIGN */
+
+    .Designing{
+        left: 5%;
+        width: 21rem;;
+    }
+
+    /* ANDROID DEVELOPMENT */
+
+    .android{
+        left: 11%;
+    }
+
+    .android__development{
+        height: 60rem;
+    }
+}
+
 
