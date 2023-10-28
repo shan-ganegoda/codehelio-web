@@ -44,19 +44,34 @@
 }
 
 .card{
-    width: 50%;
+    width: 30rem;
+    height: 15rem;
     background: #fff;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+    border-radius: 25px !important;
 }
 
-.card__title{
+.card__titlev{
     font-size: 2rem;
+    font-weight: bold;
     padding-left: 1rem;
+    position: relative;
+    top: -2rem;
+    color: #0051c4;
     
 }
 
-.card__title i{
+.card__titlem{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    position: relative;
+    top: -1rem;
+    color: #0051c4;
+    
+}
+
+.card__titlev i,.card__titlem i{
     font-size: 3rem;
     /* position: absolute; */
     line-height: 1px;
@@ -65,20 +80,277 @@
 }
 
 .card__description{
-    padding: 1rem;
+    padding: 0 1rem;
+    position: relative;
+    top: -2.5rem;
+}
+
+.card__descriptionm{
+    padding: 0 2rem;
+    position: relative;
+    top: -1.5rem;
 }
 
 .icon-image{
+    overflow: none;
     position: absolute;
-    width: 16rem;
+    width: 13rem;
     opacity: 0.1;
     
 }
 
 #missionicon{
-    right: 16rem;
+    right: 10%;
 } 
 
 #visionicon{
-    left: 28rem;
+    right: 60%;
 } 
+
+
+@media only screen and (max-width: 2560px){
+    #missionicon{
+        right: 16%;
+    } 
+    
+    #visionicon{
+        right: 66%;
+    } 
+}
+
+@media only screen and (max-width: 1440px){
+    #missionicon{
+        right: 10%;
+    } 
+    
+    #visionicon{
+        right: 60%;
+    } 
+}
+
+@media only screen and (max-width: 1110px){
+    #missionicon{
+        right: 5%;
+    } 
+    
+    #visionicon{
+        right: 55%;
+    } 
+
+    .vision__description{
+        border: none;
+    }
+
+    .vision__head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+
+    .vision__description{
+        width: 34rem;
+        text-align: justify;        
+        margin-top: 2rem;
+        position: relative;
+        left: 12rem;
+    }
+
+    .vision__background{
+        position: absolute;  
+        z-index: -1;
+        width: 55rem;
+        left: 9vw;
+    }
+}
+
+@media only screen and (max-width: 950px){
+
+    .vision__cards{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        left: 17rem;
+    }
+
+    .card{
+        margin-top: 3rem;
+    }
+
+    #missionicon{
+        right: 51%;
+    } 
+    
+    #visionicon{
+        right: 51%;
+    } 
+
+    .vision__background{
+        width: 45rem;
+        left: 9vw;
+        top: 85rem;
+    }
+
+    .vision__head{
+        margin-top: 0rem;
+    }
+
+    .vision__description{
+        width: 34rem;
+        left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    .vision__description{
+        width: 34rem;
+        left: 0rem;
+    }
+
+    .vision__cards{
+        /* display: flex;
+        flex-direction: column;
+        position: relative; */
+        left: 8rem;
+    }
+
+    .vision__background{
+        width: 37rem;
+        left: 9vw;
+        top: 85rem;
+    }
+
+    #missionicon{
+        right: 40%;
+    } 
+    
+    #visionicon{
+        right: 40%;
+    }
+}
+
+@media only screen and (max-width: 670px){
+
+    .vision__title p{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .vision__description{
+        width: 27rem;
+        left: 1rem;
+    }
+
+    .card{
+        width: 28rem;
+        height: 15rem;
+    }
+
+    #missionicon{
+        right: 35%;
+    } 
+    
+    #visionicon{
+        right: 35%;
+    }
+
+    .vision__cards{
+        left: 7rem;
+    }
+
+    .vision__background{
+        width: 34rem;
+        left: 6vw;
+        top: 85rem;
+    }
+}
+
+@media only screen and (max-width: 560px){
+
+    .vision__background{
+        width: 25rem;
+        left: 5vw;
+        top: 80rem;
+    }
+
+    #missionicon{
+        right: 35%;
+        top: 26rem;
+    } 
+    
+    #visionicon{
+        right: 35%;
+        top: 6rem;
+    }
+
+    .card{
+        width: 23rem;
+        height: 18rem;
+    }
+
+    .vision__cards{
+        left: 4rem;
+    }
+
+    .vision__description{
+        width: 23rem;
+        left: -2rem;
+    }
+
+}
+
+    @media only screen and (max-width: 460px){
+
+        .vision__description{
+            width: 23rem;
+            left: -4rem;
+        }
+
+        .vision__cards{
+            left: 2rem;
+        }
+
+        #missionicon{
+            right: 23%;
+            top: 26rem;
+        } 
+        
+        #visionicon{
+            right: 23%;
+            top: 6rem;
+        }
+    }
+
+    @media only screen and (max-width: 420px){
+        .vision__title p{
+            font-size: 2.5rem;
+        }
+
+        .vision__description{
+            width: 18rem;
+            left: -3rem;
+        }
+
+        .card{
+            width: 20rem;
+            height: 20rem;
+        }
+
+        #missionicon{
+            right: 27%;
+            top: 29rem;
+        } 
+        
+        #visionicon{
+            right: 27%;
+            top: 8rem;
+        }
+
+        .vision__background{
+            width: 20rem;
+        }
+    }

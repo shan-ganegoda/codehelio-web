@@ -4,7 +4,7 @@ import Rounds from './Rounds';
 
 import WEB from '../../assets/3Artboard/1.png';
 import Android from '../../assets/3Artboard/3.png';
-import Designing from '../../assets/3Artboard/webdesign.png';
+import Designing from '../../assets/3Artboard/webdesign.png'; 
 
 const Services = () => {
   return (

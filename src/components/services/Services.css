@@ -7,11 +7,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1rem;
 }
 
 .section__title p{
     font-size: 3rem;
+    line-height: 1px;
+}
+
+.firstL{
+    position: relative;
+    top: 2rem;
 }
 
 .section__title span{
