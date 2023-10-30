@@ -33,7 +33,7 @@
     
 }
 
-.vision__description span{
+.vision__description p{
     font-size: 1.3rem;
 }
 
@@ -142,10 +142,11 @@
     }
 
     .vision__head{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* text-align: center; */
+        grid-template-columns: repeat(1,1fr);
         margin-bottom: 5rem;
         margin-top: 3rem;
     }
@@ -168,12 +169,21 @@
 
 @media only screen and (max-width: 950px){
 
+    /* .Vision__section{
+        width: fit-content;
+    } */
+
     .vision__cards{
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
         position: relative;
         justify-content: center;
-        left: 17rem;
+        align-items: center;
+        
+    }
+
+    .vision__description{
+        width: 34rem;
+        left: 8%;
     }
 
     .card{
@@ -181,26 +191,21 @@
     }
 
     #missionicon{
-        right: 51%;
+        right: 26%;
     } 
     
     #visionicon{
-        right: 51%;
+        right: 26%;
     } 
 
     .vision__background{
         width: 45rem;
-        left: 9vw;
+        left: 5vw;
         top: 85rem;
     }
 
     .vision__head{
         margin-top: 0rem;
-    }
-
-    .vision__description{
-        width: 34rem;
-        left: 7rem;
     }
 }
 
@@ -215,7 +220,7 @@
         /* display: flex;
         flex-direction: column;
         position: relative; */
-        left: 8rem;
+        left: 0rem;
     }
 
     .vision__background{
@@ -225,11 +230,11 @@
     }
 
     #missionicon{
-        right: 40%;
+        right: 20%;
     } 
     
     #visionicon{
-        right: 40%;
+        right: 20%;
     }
 }
 
@@ -251,20 +256,20 @@
     }
 
     #missionicon{
-        right: 35%;
+        right: 12%;
     } 
     
     #visionicon{
-        right: 35%;
+        right: 12%;
     }
 
     .vision__cards{
-        left: 7rem;
+        left: 0rem;
     }
 
     .vision__background{
         width: 34rem;
-        left: 6vw;
+        left: 2vw;
         top: 85rem;
     }
 }
@@ -278,12 +283,12 @@
     }
 
     #missionicon{
-        right: 35%;
+        right: 20%;
         top: 26rem;
     } 
     
     #visionicon{
-        right: 35%;
+        right: 20%;
         top: 6rem;
     }
 
@@ -293,25 +298,34 @@
     }
 
     .vision__cards{
-        left: 4rem;
+        left: 0rem;
     }
 
     .vision__description{
         width: 23rem;
-        left: -2rem;
+        left: 0rem;
     }
 
 }
 
     @media only screen and (max-width: 460px){
 
+        .vision__title p{
+            font-size: 2.5rem;
+        }
+
+        .vision__title{
+            position: relative;
+            left: -1.5rem;
+        }
+
         .vision__description{
             width: 23rem;
-            left: -4rem;
+            left: -3.5rem;
         }
 
         .vision__cards{
-            left: 2rem;
+            left: 0rem;
         }
 
         #missionicon{
@@ -330,6 +344,10 @@
             font-size: 2.5rem;
         }
 
+        .vision__title{
+            left: 0rem;
+        }
+
         .vision__description{
             width: 18rem;
             left: -3rem;
@@ -341,16 +359,50 @@
         }
 
         #missionicon{
-            right: 27%;
+            right: 23%;
             top: 29rem;
         } 
         
         #visionicon{
-            right: 27%;
+            right: 23%;
             top: 8rem;
         }
 
         .vision__background{
             width: 20rem;
+        }
+    }
+
+    @media only screen and (max-width: 385px){
+        .vision__title p{
+            font-size: 2rem;
+        }
+
+        .vision__background{
+            width: 15rem;
+        }
+
+        .Vision__section{
+            position: relative;
+            left: -1.1rem;
+        }
+
+        .vision__body{
+            position: relative;
+            left: 0.5rem;
+        }
+
+        .vision__description{
+            left: -2.5rem;
+        }
+
+        #missionicon{
+            right: 20%;
+            top: 29rem;
+        } 
+        
+        #visionicon{
+            right: 20%;
+            top: 8rem;
         }
     }

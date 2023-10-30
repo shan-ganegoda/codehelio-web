@@ -277,10 +277,11 @@
      /* WEB DEVELOPMENT */
 
      .web__developmet{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center; */
+        /* width: 100%; */
         background-color: #edf0fd;
         height: 50rem;
     
@@ -289,7 +290,7 @@
      .WEB{
         width: 25rem;
         position: relative;
-        top: -2rem;
+        top: 0rem;
         left: 24%;
     }
 
@@ -300,16 +301,21 @@
     /* WEB DESIGN */
 
     .web__design{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center; */
+        /* width: 100%; */
         height: 50rem;
     }
 
     .Designing{
         top: 4rem;
         left: 27%;
+    }
+
+    .tab__leftwd{
+        left: -3rem;
     }
 
     /* ANDROID DEVELOPMENT */
@@ -337,7 +343,7 @@
 
    .tab__right{
        top: -2rem;
-       left: 0.2rem;
+       left: 0rem;
    }
 
    /* WEB DESIGN */
@@ -350,7 +356,7 @@
 
    .tab__rightad{
     top: 1rem;
-    left: 0.2rem;
+    left: 0rem;
 }
 
    
@@ -389,7 +395,7 @@
 
    .tab__rightad{
     top: 1rem;
-    left: 0.2rem;
+    left: 0rem;
 }
 
 .android{
@@ -466,6 +472,50 @@
 
     .android__development{
         height: 60rem;
+    }
+
+    .tab__rightad{
+        left: -1rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .tab__right, .tab__rightad{
+        left: -2rem;
+    }
+
+    .tab__leftwd{
+        left: -1.5rem;
+    }
+
+    .tab__left{
+        position: relative;
+        left: -4rem;
+    }
+
+    .tab__description{
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .android{
+        left: 5rem;
+    }
+
+    .WEB{
+        left: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 360px){
+    .WEB{
+        left: 1rem;
+    }
+
+    .tab__right{
+        left: -3rem;
     }
 }
 

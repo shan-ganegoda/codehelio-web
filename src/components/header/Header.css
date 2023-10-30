@@ -8,6 +8,10 @@
     
 }
 
+.Menu__btn{
+    display: none;
+}
+
 .nav{
     height: 2rem; 
     display: flex;
@@ -47,5 +51,28 @@
 
 .nav__link:hover{
     color: #2a94f4;
+}
+
+@media only screen and (max-width: 768px){
+    .Menu__btn{
+        display: block;
+    }
+
+    .nav__list{
+        display: none;
+    }
+
+    .mnubtn{
+        color: #fff;
+        background: transparent;
+        border: none;
+        font-size: 2rem !important;
+    }
+
+    .sidenav i{
+        color: #fff;
+        font-size: 2rem;
+        
+    }
 }
 

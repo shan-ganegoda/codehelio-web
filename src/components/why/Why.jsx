@@ -101,9 +101,6 @@ const Why = () => {
                 
             </div>
         </div>
-        <div className="technologies">
-            <img src={Technology} alt="" />
-        </div>
     </section>
   )
 }

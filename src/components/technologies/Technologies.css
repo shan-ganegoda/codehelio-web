@@ -1,0 +1,124 @@
+.technology__section{
+    height: 30rem;
+}
+
+.technology__head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15rem;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.technology__head span{
+color: #db5115;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+}
+
+.coding__tab img{
+    width: 70rem;
+    position: relative;
+    top: -18rem;
+    /* left: 25rem; */
+    right: -38%;
+}
+
+@media  screen and (max-width: 1540px){
+    .coding__tab img{
+        width: 70rem;
+        position: relative;
+        top: -18rem;
+        right: -20%;
+    }
+}
+
+@media  screen and (max-width: 1440px){
+    .coding__tab img{
+        width: 60rem;
+        position: relative;
+        top: -18rem;
+        right: -20%;
+    }
+}
+
+@media  screen and (max-width: 1187px){
+    .coding__tab img{
+        width: 60rem;
+        position: relative;
+        top: -18rem;
+        right: -13%;
+    }
+}
+
+@media  screen and (max-width: 1068px){
+    .coding__tab img{
+        width: 50rem;
+        position: relative;
+        top: -18rem;
+        right: -12%;
+    }
+}
+
+@media  screen and (max-width: 950px){
+    .coding__tab img{
+        width: 40rem;
+        top: -13rem;
+        right: -20%;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .coding__tab img{
+        width: 35rem;
+        top: -13rem;
+        right: -15%;
+    }
+}
+
+@media  screen and (max-width: 682px){
+    
+    .coding__tab img{
+        width: 30rem;
+        top: -13rem;
+        right: -15%;
+    }
+
+    .technology__head{
+        top: -15rem;
+        font-size: 3rem;
+    }
+}
+
+@media  screen and (max-width: 590px){
+    
+    .coding__tab img{
+        width: 25rem;
+        top: -13rem;
+        right: -5%;
+    }
+
+    .technology__head{
+        top: -15rem;
+        font-size: 3rem;
+    }
+}
+
+@media  screen and (max-width: 480px){
+    
+    .coding__tab img{
+        width: 20rem;
+        top: -6rem;
+        right: -10%;
+    }
+
+    .technology__head{
+        top: -10rem;
+        font-size: 2rem;
+    }
+}
+

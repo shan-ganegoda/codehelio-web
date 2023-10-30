@@ -12,7 +12,7 @@ import CardContent from '@mui/material/CardContent';
 const Vision = () => {
   return (
     <>
-    <section className="Vision__section" id="about">
+    <section className="Vision__section" id="about"> 
         <img className='vision__background' src={VisionBackground} alt="Background" />
         <div className="vision__head grid">
             <div className="vision__title">
@@ -21,10 +21,10 @@ const Vision = () => {
             </div>
 
             <div className="vision__description">
-                <span>we offer innovative,expert solutions that align with objectives
+                <p>we offer innovative,expert solutions that align with objectives
                     ,ensuring optimal functionality,scalability, and user experience, fostering
                     success in the digital realm.
-                </span>
+                </p>
             </div>
 
         </div>

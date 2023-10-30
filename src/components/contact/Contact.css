@@ -98,3 +98,136 @@
     margin-top: 2rem;
     width: 16rem;
 }
+
+@media only screen and (max-width: 950px){
+    .contact__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left__side{
+        border: none;
+        position: relative;
+        left: 25%;
+        padding-right: 0;
+        width: fit-content;
+    }
+
+    .right__side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .details{
+        position: relative;
+        right: 5rem;
+        top: 17rem;
+        align-items: center;
+
+    }
+
+    .round{
+        display: none;
+    }
+    
+    .logo{
+        position: relative;
+        width: 16rem;
+        top: -2rem;
+        right: -8rem;
+    }
+
+    .contact__section{
+        height: 50rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    .left__side{
+        border: none;
+        position: relative;
+        left: 20%;
+    }
+    .logo{
+        position: relative;
+        width: 16rem;
+        top: -2rem;
+        right: -7rem;
+    }
+
+    .details{
+        position: relative;
+        right: 2rem;
+        top: 17rem;
+        align-items: center;
+
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .logo{        
+        top: -2rem;
+        right: -4rem;
+    }
+
+    .left__side{
+        left: 18%;
+    }
+
+    .details{
+        right: 0rem;
+        top: 17rem;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .logo{        
+        top: -2rem;
+        right: -2rem;
+    }
+
+    .left__side{
+        left: 7%;
+    }
+
+    .details{
+        right: 0rem;
+        top: 17rem;
+    }
+}
+
+@media only screen and (max-width: 460px){
+
+    .message__input{
+        width: 17rem;
+    }
+    
+    .email{
+        width: 12rem;
+    }
+    
+    .action{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .button__send{
+        color: #000;
+        background-color: #fff;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button__send i{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

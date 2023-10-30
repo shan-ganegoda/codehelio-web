@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 
 .TitleImg{
@@ -63,12 +64,6 @@
     margin-right: 3rem;
 }
 
-.technologies{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -10rem;
-}
 
 /* BREAKPOINTS */
 
@@ -143,11 +138,13 @@
         left: 6rem;
         top: -12rem;
         height: 40rem;
+        width: 100%;
     }
     
     .ManImg{
         height: 20rem;
         transform: scaleX(-1);
+        left: -20rem;
     }
 }
 
@@ -174,7 +171,7 @@
     
     .ManImg{
         height: 15rem;
-        left: -18rem;
+        left: -11rem;
     }
 
     .choose__cards{
@@ -185,14 +182,14 @@
 @media only screen and (max-width: 480px){
     
     .TitleImg{
-        top: -6rem;
-        height: 20rem;
+        top: -8rem;
+        height: 25rem;
         left: 4rem;
     }
     
     .ManImg{
         height: 10rem;
-        left: -13rem;
+        left: -8rem;
     }
 
     .choose__cards{
