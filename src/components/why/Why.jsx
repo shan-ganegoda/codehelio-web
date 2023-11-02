@@ -34,10 +34,8 @@ const Why = () => {
                 </Card>
 
                 <p className='box__description'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum nobis 
-                    distinctio cum ex provident, at qui, temporibus laudantium accusantium ullam 
-                    totam quo. Est laboriosam corporis, voluptatum culpa cum hic ut, aperiam, nulla 
-                    porro qui provident commodi sint! Dolorum blanditiis aspernatur corrupti.
+                    A thriving community where experts and enthusiasts come together to exchange 
+                    insights, solve challenges, and elevate their understanding of technology. 
                 </p>
                 </div>
 
@@ -50,10 +48,9 @@ const Why = () => {
                 </Card>
 
                 <p className='box__description'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum nobis 
-                    distinctio cum ex provident, at qui, temporibus laudantium accusantium ullam 
-                    totam quo. Est laboriosam corporis, voluptatum culpa cum hic ut, aperiam, nulla 
-                    porro qui provident commodi sint! Dolorum blanditiis aspernatur corrupti.
+                    Understanding the critical importance of safeguarding your data and ensuring
+                    your digital interactions remain confiden- tial. Your privacy is not just a 
+                    feature-it's a fundamental aspect of our offerings.
                 </p>
                 </div>
 
@@ -63,10 +60,9 @@ const Why = () => {
 
                 <div className='card__content'>
                 <p className='box__description'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum nobis 
-                    distinctio cum ex provident, at qui, temporibus laudantium accusantium ullam 
-                    totam quo. Est laboriosam corporis, voluptatum culpa cum hic ut, aperiam, nulla 
-                    porro qui provident commodi sint! Dolorum blanditiis aspernatur corrupti.
+                Our solutions provide intuitive interfaces, robust collaboration features, and real-time
+                tracking capabilities that enable you to chart your project's course, allocate resources 
+                wisely, and meet milestones confidently meka project planekata.
                 </p>
 
                 <Card className='box__card'>
@@ -83,10 +79,10 @@ const Why = () => {
                 <div className='card__content'>
 
                 <p className='box__description'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum nobis 
-                    distinctio cum ex provident, at qui, temporibus laudantium accusantium ullam 
-                    totam quo. Est laboriosam corporis, voluptatum culpa cum hic ut, aperiam, nulla 
-                    porro qui provident commodi sint! Dolorum blanditiis aspernatur corrupti.
+                We understand that progress is driven by those who dare to
+                think differently. Our platform is a canvas where your new ideas
+                can come to life, supported by cutting-edge tools and expert
+                guidance
                 </p>
 
                 <Card className='box__card'>

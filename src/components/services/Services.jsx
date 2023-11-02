@@ -34,12 +34,10 @@ const Services = () => {
                 </div>
                 <div className="tab__line"></div>
                 <div className="tab__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora obcaecati maxime 
-                    vero, officia inventore alias iure nesciunt magnam ipsa provident quas error ab 
-                    similique odit reiciendis, maiores tenetur quasi dolorem debitis doloremque. 
-                    Labore eveniet, impedit molestias quia ab, quo quisquam doloribus voluptates ut 
-                    laboriosam harum consequatur, commodi reprehenderit velit officia!
-                    </div>
+                 Our web app development services encompass a wide range of technologies and 
+                 frameworks, allowing us to create dynamic and interactive web applications 
+                 that captivate users and leave a lasting impression.
+                </div>
 
             </div>
             
@@ -56,11 +54,9 @@ const Services = () => {
                 </div>
                 <div className="tab__line"></div>
                 <div className="tab__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora obcaecati maxime 
-                    vero, officia inventore alias iure nesciunt magnam ipsa provident quas error ab 
-                    similique odit reiciendis, maiores tenetur quasi dolorem debitis doloremque. 
-                    Labore eveniet, impedit molestias quia ab, quo quisquam doloribus voluptates ut 
-                    laboriosam harum consequatur, commodi reprehenderit velit officia!
+                Our web design services focus on creating visually stunning, engaging websites 
+                using modern UI/UX principles, responsive design, and multimedia integration, 
+                delivering impactful designs.
                     </div>
 
             </div>
@@ -86,11 +82,9 @@ const Services = () => {
                 </div>
                 <div className="tab__line"></div>
                 <div className="tab__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora obcaecati maxime 
-                    vero, officia inventore alias iure nesciunt magnam ipsa provident quas error ab 
-                    similique odit reiciendis, maiores tenetur quasi dolorem debitis doloremque. 
-                    Labore eveniet, impedit molestias quia ab, quo quisquam doloribus voluptates ut 
-                    laboriosam harum consequatur, commodi reprehenderit velit officia!
+                With the mobile app market booming, we leverage our expertise to develop user-friendly
+                and feature-rich mobile applica- tions for both Android and iOS platforms. From concept
+                to deployment, we ensure seamless user experiences and outstanding performance.
                     </div>
 
             </div>
